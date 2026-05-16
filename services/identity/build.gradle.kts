@@ -74,3 +74,7 @@ dependencies {
     testImplementation("org.mockito:mockito-inline:${mockito}")
     testImplementation("junit:junit:4.13.2")
 }
+
+dependencyLocking {
+    lockAllConfigurations()
+}
